@@ -251,4 +251,12 @@ form .form-control {
   margin: 0 auto;
 }
 
+#copyright img {
+  display: block;
+  margin: 30px auto;
+}
 
+#copyright p {
+  text-align: center;
+  /*margin: 30px auto;*/
+}
