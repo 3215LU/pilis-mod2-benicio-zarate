@@ -239,13 +239,16 @@ form .form-control {
   height: 30%;
 }
 
-#mapa {
+#clima-y-mapa {
   height: 40%;
   
 }
 
+
+
 #mapa iframe {
   display: block;
+  float: right;
   width: 300px;
   height: 300px;
   margin: 0 auto;
