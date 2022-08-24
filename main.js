@@ -56,16 +56,19 @@ fetch("https://api.openweathermap.org/data/2.5/weather?lat=-24.184014695495744&l
   .catch(error => console.log(error))
 
 function mostrarDatos(datos) {
+    let ciudad = document.createElement("p");
     let temperatura = document.createElement("p");
     let humedad = document.createElement("p");
     let termica = document.createElement("p");
     let descripcion = document.createElement("p");
     
+    ciudad.innerHTML = "Ciudad: " + datos.name;
     temperatura.innerHTML = "Temperatura: " + datos.main.temp + " c";
     humedad.innerHTML = "Humedad: " + datos.main.humidity + "%";
     termica.innerHTML = "Sensación térmica: " + datos.main.feels_like + " c";
     descripcion.innerHTML = "Cielo: " + datos.weather[0].description;
 
+    contenedor.appendChild(ciudad);
     contenedor.appendChild(temperatura);
     contenedor.appendChild(humedad);
     contenedor.appendChild(termica);
