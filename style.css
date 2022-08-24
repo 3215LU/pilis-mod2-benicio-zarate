@@ -6,10 +6,9 @@
 }
 
 /* General */
-html,
-body {
+html, body {
   font-family: "Montserrat", sans-serif;
-  background: #ba3940;
+  /*background: #ba3940;*/
   color: #ffffff;
   scroll-behavior: smooth;
 }
@@ -87,39 +86,58 @@ a {
 
 header {
   height: 100vh;
+  width: 100vw;
+  background-color: rgb(42,4,27)
 }
 
 .container {
-  
   margin: auto;
   max-width: 1300px;
   overflow: auto;
   padding: 0 10px;
 }
 
-/* nosotros */
+/* sección correspondiente a nosotros */
 #nosotros {
-  background: #841934;
+  background: rgb(216,104,163);
+  height: 100vh;
+  width: 100vw;
   padding: 100px 0;
 }
 
 .nosotros-title {
-  float: right;
-  width: 45%;
-  padding-top: 340px;
-}
-
-.nosotros-description {
   float: left;
-  width: 55%;
+  width: 50%;
+  padding: 20px 20px 20px 40px;
 }
 
-.nosotros-description .large {
+.nosotros-title .large {
   padding-bottom: 10px;
   font-size: 1.25rem;
 }
 
+.nosotros-img {
+  float: right;
+  width: 50%;
+}
+
+.nosotros-img img {
+  width: 90%;
+}
+
+.nosotros-img img.resize {
+  width: 624px;
+  height: auto;
+}
+
 /*seccion correspondiente a el evento*/
+#elEvento {
+  background-color: rgb(120, 65,120);
+  height: 100vh;
+  width: 100vw;
+  padding: 100px 0;
+}
+
 .subtituloParrafo{
   float: right;
   width: 50%;
@@ -128,12 +146,16 @@ header {
 .seccionVideo{
   float: left;
   width: 50%;
+}
 
+.seccionVideo video {
+    width: 624px;
+    height: auto;
 }
 
 /* General */
 h2 {
-  font-size: 50px;
+  font-size: 40px;
   text-transform: uppercase;
   font-weight: 300;
   color: #fff;
@@ -143,11 +165,15 @@ p {
   font-size: 1rem;
   margin: 10px 0;
   line-height: 1.7em;
+  text-align: justify;
 }
 
-/* registrarse */
+/*sección correspondiente a registrarse */
 #registrarse {
-  padding: 120px 0;
+  padding: 30px 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(155,36,74);
 }
 
 .registrarse-form {
@@ -200,8 +226,37 @@ form .form-control {
   color: #841934;
 }
 
+/*sección correspondiente a informacion */
+#informacion {
+  background-color: rgb(60,0,12);
+  /*height: 100vh;*/
+  width: 100vw;
+  padding: 100px 0;
+}
 
+#titulo {
+  text-align: center;
+  height: 30%;
+}
 
+#mapa {
+  height: 40%;
+  
+}
 
+#mapa iframe {
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
 
+#copyright img {
+  display: block;
+  margin: 30px auto;
+}
 
+#copyright p {
+  text-align: center;
+  /*margin: 30px auto;*/
+}
