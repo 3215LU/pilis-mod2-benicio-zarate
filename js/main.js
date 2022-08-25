@@ -9,11 +9,13 @@ function onClick (event) {
       name: document.getElementById('name').value,
       email: document.getElementById('email').value,
       message: document.getElementById('message').value
+      message: document.getElementById('message').value
+
     }
     console.log(mensaje);
   
   
-    fetch("https://jsonplaceholder.typicode.com/posts%22", {
+    fetch("https://jsonplaceholder.typicode.com/posts", {
       method: "POST",
       body: JSON.stringify(mensaje),
       headers: { "Content-type": "application/json; charset=UTF-8" },

@@ -48,7 +48,7 @@ a {
 }
 
 #navbar ul li a:hover {
-  background: #a0fa93;
+  color: rgb(127, 127, 127);
 }
 
 /* Showcase */
