@@ -13,7 +13,7 @@ function onClick (event) {
     console.log(mensaje);
   
   
-    fetch("https://jsonplaceholder.typicode.com/posts%22", {
+    fetch("https://jsonplaceholder.typicode.com/posts", {
       method: "POST",
       body: JSON.stringify(mensaje),
       headers: { "Content-type": "application/json; charset=UTF-8" },
