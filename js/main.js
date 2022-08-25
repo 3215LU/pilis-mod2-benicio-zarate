@@ -37,7 +37,7 @@ function cleanForm() {
     formulario.reset();    
 }
 function redirectUrl(){
-    window.location.href = "https://google.com%22;"  
+    window.location.href = "https://google.com;"  
 }
 
 let boton = document.getElementById("enviar");
