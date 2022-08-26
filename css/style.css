@@ -249,30 +249,37 @@ form .form-control {
 }
 
 /*sección correspondiente a informacion */
-#informacion {
-  
+
+/*sección correspondiente a informacion */
+#informacion { 
   /*height: 100vh;*/
   width: 100vw;
   padding: 100px 0;
+  
 }
 
 #titulo {
   text-align: center;
   height: 30%;
 }
-
-#clima-y-mapa {
+#clima-mapa {
   height: 40%;
-  
+  margin-left: 10%;
 }
 
-
-
+#clima{
+  display: block;
+  margin-left: 10%;
+  margin: 0 auto;
+  width: 20%;
+  background-color: rgb(117, 95, 107);
+  color:azure;    
+}
 #mapa iframe {
   display: block;
-  float: right;
-  width: 300px;
-  height: 300px;
+  margin-right: 10%;
+  width: 20%;
+  height: 10%;
   margin: 0 auto;
 }
 
