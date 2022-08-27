@@ -3,51 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="logo-16x16.png" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="./img/logit.png" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Agencia de promoción</title>
   </head>
   <body>
     <header id="mainheader">
-      <nav id="navbar">
-        <div class="container">
-          <h1 class="logo">
-            <a href="index.html">
-              <img src="logo.png" width="50"  height="50">
-            </a>
-          </h1>
-          <ul id="nave">
-            <li><a href="#nosotros">Nosotros</a></li>
-            <li><a href="#elEvento">El evento</a></li>
-              <li><a href="#registrarse">Registrate</a></li>
-          </ul>
-        </div>
-      </nav>
-
-      <div id="showcase">
-        <div class="container">
-          <div class="showcase-img">
-            <img src="imagen1.jpg" alt="showcase" />
-          </div>
-
-          <div class="showcase-text">
-            <h1>
-              Expo vitivinicola
+        <nav id="navbar">
+          <div class="container">
+            <h1 class="logo">
+              <a href="#home">
+                <img  class="imgLogo" id="logoMPP" src="./img/logito.png">
+              </a>
             </h1>
-            <h2>
-              "juntos, potenciamos el comercio Jujeño"
-            </h2>
-           
+            <ul id="nave">
+              <li><a href="#nosotros">Nosotros</a></li>
+              <li><a href="#elEvento">El evento</a></li>
+                <li><a href="#registrarse">Registrate</a></li>
+            </ul>
           </div>
-        </div>
-      </div>
+        </nav>
+          
     </header>
+  
+        <section id="home">
+        
+        </br>
+              
+        </br>
+      </br>
+      </br>
+      </br>          <br>
+            <br>
+          <div id="showcase">
+            <div class="container">
+              <div class="showcase-img">
+                <img src="./img/imagen1.jpg" alt="showcase" />
+              </div>
+    
+              <div class="showcase-text">
+                <h1>
+                  Expo vitivinicola
+                </h1>
+                <h2>
+                  "juntos, potenciamos el comercio Jujeño"
+                </h2>
+              
+              </div>
+            </div>
+          </div>
+        </section>
 
     <section id="elEvento">
       <div class="container">
         <div class="seccionVideo">
           <video controls>
-            <source src="vinos_ Jujuy.mp4" preload="auto">
+            <source src="./video/vinosJujuy.mp4" preload="auto">
             Tu navegador no es compatible con formato de video mp4 para HTLM5
           </video>
         </div>
@@ -67,7 +78,7 @@
           </p>
         </div>
         <div class="nosotros-img">
-          <img src="expovinos.jpg" alt="Entrada al salón Expovinos">
+          <img src="./img/expovinos.jpg" alt="Entrada al salón Expovinos">
         </div>
       </div>
     </section>
@@ -98,33 +109,29 @@
         </div>
       </div>
     </section>
-
+  
+    <section id="informacion">
+      <div class="container">
+        <div id="titulo">
+          <h2>Así está el clima en el lugar del Evento: Ciudad Cultural!</h2>
+        </div>
+        <div id="clima-y-mapa">
+          
+          <div id="clima">
+          </div>
+          <div id="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.666882249007!2d-65.33348658556866!3d-24.183412790740977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b0ee2033f07f3%3A0xc77a811c6a4b0561!2sCiudad%20Cultural!5e0!3m2!1ses!2sar!4v1661299808826!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>  
+    </section>
     <footer>
-      <section id="informacion">
-        <div class="container">
-          <div id="titulo">
-            <h2>Así está el clima en el lugar del evento!</h2>
-          </div>
-          <div id="clima-y-mapa">
-            <div id="clima">
-
-            </div>
-            <div id="mapa">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.666882249007!2d-65.33348658556866!3d-24.183412790740977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b0ee2033f07f3%3A0xc77a811c6a4b0561!2sCiudad%20Cultural!5e0!3m2!1ses!2sar!4v1661299808826!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-          </div>
-            
-
           <div id="copyright">
-            <a href="https://www.whatsapp.com" target="_blank"> <img src="whatsapp-80x80.png" alt="Enlace a Whatsapp"> </a>
+            <a href="https://www.whatsapp.com" target="_blank"> <img src="./img/whatsapp-80x80.png" alt="Enlace a Whatsapp"> </a>
             <p>&copy; 2.022 - Todos los derechos reservados</p>
           </div>
         </div>
-        
-      </section>
     </footer>
-
-    <script src="main.js"></script>
+    <script src="./js/main.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>
 </html>
