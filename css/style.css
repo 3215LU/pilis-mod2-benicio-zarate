@@ -262,30 +262,28 @@ form .form-control {
   text-align: center;
   height: 30%;
 }
-#clima-mapa {
+#clima-y-mapa {
   height: 40%;
-  margin-left: 10%;
 }
 
 #clima{
   display: block;
-  margin-left: 10%;
-  margin: 0 auto;
+  margin-left: 25%;
   width: 20%;
   background-color: rgb(117, 95, 107);
   color:azure;    
+  float: left;
 }
 #mapa iframe {
-  display: block;
-  margin-right: 10%;
+  display: inline-block;
+  margin-left: 8%;
   width: 20%;
   height: 10%;
-  margin: 0 auto;
 }
 
 #copyright img {
   display: block;
-  margin: 30px auto;
+  margin: 10px auto;
 }
 
 #copyright p {
