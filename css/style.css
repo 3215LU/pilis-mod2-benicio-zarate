@@ -12,7 +12,7 @@ html,body {
   scroll-behavior: smooth;
   margin: 0%;
   /*background-image: linear-gradient(to top,rgb(42,4,27), rgb(155,36,74), rgb(120, 65,120), rgb(60,0,12));*/
-  background: linear-gradient(to top,rgb(42,4,27), rgb(155,36,74), rgb(120, 65,120), rgb(60,0,12));
+  background: linear-gradient(to top,rgb(42,4,27), rgb(120, 65,120), rgb(60,0,12));
   position: relative;
   animation: cambiar 10s ease-in-out infinite;
   /*42,4,27
@@ -282,14 +282,13 @@ form .form-control {
 }
 
 #datosClima {
-  
   background-color:rgb(60,0,12);
   color:aliceblue;    
   padding-top: 1%;  
   padding-left: 7%;
 }
 #iconoClima {
-  background-color:  rgb(155,36,74);
+  background-color:  rgb(97, 29, 50);
   color:azure;    
   padding-top: 3%;
 }
@@ -301,6 +300,9 @@ p .textoClima{
   font-size: 8px;
 }
 /*FOTER DE PARTE DE CONTACTO*/
+footer{
+  background-color: rgb(42,4,27);
+}
 #copyright img {
   display: block;
   margin: 10px auto;
