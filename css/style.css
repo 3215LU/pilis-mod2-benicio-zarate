@@ -266,13 +266,11 @@ form .form-control {
   text-align: center;
   height: 30%;
 }
-
 #contenedor {
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
-  
+  grid-gap: 10px;  
 }
 
 #datosClima, #iconoClima, #mapa {
@@ -284,14 +282,14 @@ form .form-control {
 }
 
 #datosClima {
-  background-color: rgb(216,104,163);
-  color:azure;    
-  padding-top: 20%;
   
+  background-color:rgb(60,0,12);
+  color:aliceblue;    
+  padding-top: 1%;  
   padding-left: 7%;
 }
 #iconoClima {
-  background-color: rgb(117, 95, 107);
+  background-color:  rgb(155,36,74);
   color:azure;    
   padding-top: 3%;
 }
