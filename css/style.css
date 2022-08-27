@@ -12,7 +12,7 @@ html,body {
   scroll-behavior: smooth;
   margin: 0%;
   /*background-image: linear-gradient(to top,rgb(42,4,27), rgb(155,36,74), rgb(120, 65,120), rgb(60,0,12));*/
-  background: linear-gradient(to top,rgb(42,4,27), rgb(120, 65,120), rgb(60,0,12));
+  background: linear-gradient(to top,rgb(42,4,27),rgb(42,4,27), rgb(120, 65,120), rgb(60,0,12));
   position: relative;
   animation: cambiar 10s ease-in-out infinite;
   /*42,4,27
@@ -194,10 +194,20 @@ p {
 #registrarse {
   padding: 30px 0;
   height: 100vh;
-  width: 100vw;
-  
+  width: 100vw;  
+}
+#registrarseME{
+  animation: maquinaEscribir 4s steps(54), blink .5s infinite step-end alternate;
+  overflow:hidden;
 }
 
+  @keyFrames maquinaEscribir {
+  from { width: 0}
+  }
+  
+  @keyFrames blink {
+   50% { border-color: transparent}
+  }
 .registrarse-form {
   float: right;
   width: 45%;
@@ -287,6 +297,7 @@ form .form-control {
   padding-top: 1%;  
   padding-left: 7%;
 }
+
 #iconoClima {
   background-color:  rgb(97, 29, 50);
   color:azure;    

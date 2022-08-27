@@ -16,12 +16,8 @@ Hola! :smile: Éste es el primer proyecto integrador grupal, en el cual se imple
 :pencil: https://jsonplaceholder.typicode.com
 
 ## Paleta de Colores
-rgb(42,4,27)
-rgb(120, 65,120)
-rgb(216,104,163)
-rgb(155,36,74)
-rgb(60,0,12)
-mas los colores blanco y gris
+rgb(42,4,27), rgb(120, 65,120), rgb(60,0,12),rgb(97, 29, 50)
+mas los colores blanco y gris 
 
 ## Integrantes
 Cristian Zarate
