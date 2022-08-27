@@ -248,7 +248,7 @@ form .form-control {
   color: #841934;
 }
 
-/*sección correspondiente a informacion */
+
 
 /*sección correspondiente a informacion */
 #informacion { 
@@ -257,30 +257,54 @@ form .form-control {
   padding: 100px 0;
   
 }
-
+/*CLIMA*/
+#seccionClima{
+  display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 #titulo {
   text-align: center;
   height: 30%;
 }
-#clima-y-mapa {
-  height: 40%;
+
+#contenedor {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  
 }
 
-#clima{
-  display: block;
-  margin-left: 25%;
-  width: 20%;
+#datosClima, #iconoClima, #mapa {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+}
+
+#datosClima {
+  background-color: rgb(216,104,163);
+  color:azure;    
+  padding-top: 3%;
+}
+#iconoClima {
   background-color: rgb(117, 95, 107);
   color:azure;    
-  float: left;
+  padding-top: 3%;
 }
-#mapa iframe {
-  display: inline-block;
-  margin-left: 8%;
-  width: 20%;
-  height: 10%;
+#mapa {
+  padding-top: 0%; 
+  color:azure;    
+}
+p .textoClima{
+  font-size: 8px;
+
 }
 
+/*FOTER DE PARTE DE CONTACTO*/
 #copyright img {
   display: block;
   margin: 10px auto;
