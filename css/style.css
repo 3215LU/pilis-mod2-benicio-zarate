@@ -248,8 +248,6 @@ form .form-control {
   color: #841934;
 }
 
-
-
 /*sección correspondiente a informacion */
 #informacion { 
   /*height: 100vh;*/
@@ -288,8 +286,9 @@ form .form-control {
 #datosClima {
   background-color: rgb(216,104,163);
   color:azure;    
-  padding-top: 3%;
-  text-justify: auto;
+  padding-top: 20%;
+  
+  padding-left: 7%;
 }
 #iconoClima {
   background-color: rgb(117, 95, 107);

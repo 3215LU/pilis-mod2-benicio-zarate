@@ -68,16 +68,16 @@ window.addEventListener('load', ()=> {
           .then( data => {
               //temperatura
               let temp = Math.round(data.main.temp)                
-              temperaturaValor.textContent = `${temp} ° C`
+              temperaturaValor.textContent = "Temperatura: "+`${temp} ° C`
               //Humedad
               let humd = Math.round(data.main.humidity)                
-              humedad.textContent = `${humd}` + "%";
+              humedad.textContent = "Humedad: "+`${humd}` + "%";
               //descripcion
               let desc = data.weather[0].description                
-              temperaturaDescripcion.textContent = desc.toUpperCase()
-              ubicacion.textContent = data.name
+              temperaturaDescripcion.textContent = "Descripción: "+ desc.toUpperCase()
+              ubicacion.textContent =data.name
               //Velocidad del Viento: 
-              vientoVelocidad.textContent = `${data.wind.speed} m/s`
+              vientoVelocidad.textContent = "Velocidad del Viento: "+`${data.wind.speed} m/s`
               //Case para los  iconos dinámicos
               console.log(data.weather[0].main)
               switch (data.weather[0].main) {
